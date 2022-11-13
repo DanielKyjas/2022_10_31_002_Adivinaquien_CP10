@@ -17,7 +17,7 @@ int main() {
 		std::cout << "Tu personaje tiene superfuerza?\n";
 		std::cin >> respuesta;
 		if (respuesta == true) {
-			//Tercer preguntamnj
+			//Tercer pregunta
 			std::cout << "Tu personaje tiene superpoderes superfuerza a traves de la radiacion?\n";
 			std::cin >> respuesta;
 			if (respuesta == true) {
