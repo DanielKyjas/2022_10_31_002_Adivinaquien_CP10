@@ -6,8 +6,10 @@
 
 int main() {
 	bool respuesta = true;
+	//hola
 	//Primera pregunta
 	std::cout << "Responde 0 para no y 1 para si\n";
+	std::cout << "Tus personajes pueden ser Red Hulk, Hulk, la mole, Spiderman, Capitan America, US Agent, Coloso, Hercules, Capitana Marvel, Thor, Angel, Jessica Jones, El Lider, Mr Fantastico, Quicksilver, Daredevil, Kang el conquistador, Cable, Ironman, Dr octopus, Ultron, Vision,Antman, Mysterio, , Hawkeye, Punisher, Kingpin, Shang Chi, J.J.Jameson, Mary Jane, Foggy Nelson, Karen Page \n";
 	std::cout << "Tu personaje tiene superpoderes?\n";
 	std::cin >> respuesta;
 	if (respuesta == true) {
@@ -15,7 +17,7 @@ int main() {
 		std::cout << "Tu personaje tiene superfuerza?\n";
 		std::cin >> respuesta;
 		if (respuesta == true) {
-			//Tercer pregunta
+			//Tercer preguntamnj
 			std::cout << "Tu personaje tiene superpoderes superfuerza a traves de la radiacion?\n";
 			std::cin >> respuesta;
 			if (respuesta == true) {
@@ -105,11 +107,11 @@ int main() {
 				}
 				else {
 					//quinta pregunta
-					std::cout << "Tu personaje puede respirar abajo del agua\n";
+					std::cout << "Tu personaje tiene alas\n";
 					std::cin >> respuesta;
 					if (respuesta == true) {
 						//Adivina
-						std::cout << "Tu persronaje es Namor";
+						std::cout << "Tu persronaje es Angel";
 					}
 					else {
 						//Adivina
